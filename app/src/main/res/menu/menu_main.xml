@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.digitalhouse.componentesmaterialdesign.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_accountiung"
+        android:orderInCategory="100"
+        android:title="Account"
+        android:icon="@android:drawable/sym_action_email"
+        app:showAsAction="ifRoom" />
+</menu>
